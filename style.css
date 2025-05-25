@@ -48,8 +48,8 @@ header {
 
 .nav-links a.active,
 .nav-links a:hover {
-  border-bottom: 2px solid #fbbf24;
-  color: #fbbf24;
+  border-bottom: 2px solid #691e10;
+  color: #691e10;
 }
 
 main {
@@ -84,7 +84,7 @@ main {
 }
 
 .about-section h1 {
-  color: #fbbf24;
+  color: #691e10;
   margin-bottom: 1.2rem;
   font-size: 2.4rem;
 }
@@ -120,12 +120,12 @@ main {
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 3px solid #fbbf24;
+  border: 3px solid #691e10;
 }
 
 .member-card h2 {
   margin: 0.5rem 0 0.3rem 0;
-  color: #fbbf24;
+  color: #691e10;
   font-size: 1.1rem;
 }
 
@@ -138,7 +138,7 @@ main {
 
 .epk-section h1 {
   text-align: center;
-  color: #fbbf24;
+  color: #691e10;
   margin-bottom: 2rem;
 }
 
@@ -151,13 +151,13 @@ main {
   margin-top: 1.7rem;
   margin-bottom: 0.7rem;
   font-size: 1.3rem;
-  border-left: 5px solid #fbbf24;
+  border-left: 5px solid #691e10;
   padding-left: 0.6rem;
 }
 
 .epk-section h3 {
   margin: 0.7rem 0 0.3rem 0;
-  color: #fbbf24;
+  color: #691e10;
   font-size: 1.1rem;
 }
 
@@ -169,7 +169,7 @@ main {
 
 .stream-links a {
   color: #fff;
-  background: #fbbf24;
+  background: #691e10;
   padding: 0.4rem 1.1rem;
   border-radius: 8px;
   text-decoration: none;
@@ -213,13 +213,13 @@ main {
   height: 160px;
   object-fit: cover;
   border-radius: 10px;
-  border: 2px solid #fbbf24;
+  border: 2px solid #691e10;
   transition: box-shadow 0.2s;
   box-shadow: 0 1px 8px rgba(0,0,0,0.12);
 }
 
 .epk-photos a:hover img {
-  box-shadow: 0 4px 22px #fbbf24aa;
+  box-shadow: 0 4px 22px #691e10;
 }
 
 .download-note {
