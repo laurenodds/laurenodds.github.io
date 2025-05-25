@@ -48,8 +48,8 @@ header {
 
 .nav-links a.active,
 .nav-links a:hover {
-  border-bottom: 2px solid #8c0606;
-  color: #8c0606;
+  border-bottom: 2px solid #D15252;
+  color: #D15252;
 }
 
 main {
