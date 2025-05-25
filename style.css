@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: #faf9f6;
+  color: #222;
+}
+
+header {
+  background: #131313;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+  padding-bottom: 2px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+  border-bottom: 2px solid #fbbf24;
+  color: #fbbf24;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.splash-gallery {
+  display: flex;
+  gap: 2vw;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+}
+
+.splash-img {
+  width: 30vw;
+  max-width: 350px;
+  height: 35vw;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.13);
+}
+
+.about-section {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.about-section h1 {
+  color: #fbbf24;
+  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+}
+
+.band-intro {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.band-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.member-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  width: 220px;
+  text-align: center;
+  padding: 1.2rem 1rem 1.5rem 1rem;
+}
+
+.member-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #fbbf24;
+}
+
+.member-card h2 {
+  margin: 0.5rem 0 0.3rem 0;
+  color: #fbbf24;
+  font-size: 1.1rem;
+}
+
+.epk-section {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  padding: 2.2rem 2rem;
+}
+
+.epk-section h1 {
+  text-align: center;
+  color: #fbbf24;
+  margin-bottom: 2rem;
+}
+
+.epk-section article {
+  margin-bottom: 2.5rem;
+}
+
+.epk-section h2 {
+  color: #1c1917;
+  margin-top: 1.7rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.3rem;
+  border-left: 5px solid #fbbf24;
+  padding-left: 0.6rem;
+}
+
+.epk-section h3 {
+  margin: 0.7rem 0 0.3rem 0;
+  color: #fbbf24;
+  font-size: 1.1rem;
+}
+
+.stream-links {
+  display: flex;
+  gap: 1.2rem;
+  margin: 0.6rem 0 1.2rem 0;
+}
+
+.stream-links a {
+  color: #fff;
+  background: #fbbf24;
+  padding: 0.4rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+  font-size: 1rem;
+}
+
+.stream-links a:hover {
+  background: #d97706;
+  color: #fff;
+}
+
+.audio-samples {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 1.3rem;
+}
+
+.audio-samples audio {
+  width: 210px;
+  outline: none;
+}
+
+.video-embeds {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.epk-photos {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.epk-photos a img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #fbbf24;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.12);
+}
+
+.epk-photos a:hover img {
+  box-shadow: 0 4px 22px #fbbf24aa;
+}
+
+.download-note {
+  font-size: 0.95em;
+  color: #555;
+  font-weight: 400;
+}
+
+.press-logos {
+  display: flex;
+  gap: 1.1rem;
+  margin-top: 0.8rem;
+}
+
+.press-logos img {
+  height: 30px;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .splash-gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .splash-img {
+    width: 80vw;
+    max-width: 98vw;
+    height: 35vw;
+    max-height: 220px;
+  }
+  .band-members {
+    flex-direction: column;
+    align-items: center;
+  }
+  .audio-samples,
+  .video-embeds,
+  .epk-photos,
+  .press-logos,
+  .stream-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.8rem 1rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  main, .epk-section, .about-section, .band-intro {
+    padding: 1.1rem;
+  }
+  .epk-section {
+    padding: 1.1rem;
+  }
+}
