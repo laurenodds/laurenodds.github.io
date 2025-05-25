@@ -109,18 +109,18 @@ main {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-  width: 220px;
+  width: 260px;
   text-align: center;
-  padding: 1.2rem 1rem 1.5rem 1rem;
+  padding: 1.5rem 1rem 2rem 1rem;
 }
 
 .member-card img {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
-  border: 3px solid #8c0606;
+  border: 1px solid #8c0606;
 }
 
 .member-card h2 {
@@ -159,6 +159,11 @@ main {
   margin: 0.7rem 0 0.3rem 0;
   color: #8c0606;
   font-size: 1.1rem;
+}
+
+.epk-section li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
 .stream-links {
@@ -203,19 +208,20 @@ main {
 
 .epk-photos {
   display: flex;
-  gap: 1.2rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .epk-photos a img {
-  width: 160px;
-  height: 160px;
+  width: 280px;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 420px;
   object-fit: cover;
-  border-radius: 10px;
-  border: 2px solid #8c0606;
+  border-radius: 12px;
+  border: 3px solid #8c0606;
   transition: box-shadow 0.2s;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
 .epk-photos a:hover img {
@@ -226,17 +232,6 @@ main {
   font-size: 0.95em;
   color: #555;
   font-weight: 400;
-}
-
-.press-logos {
-  display: flex;
-  gap: 1.1rem;
-  margin-top: 0.8rem;
-}
-
-.press-logos img {
-  height: 30px;
-  object-fit: contain;
 }
 
 @media (max-width: 900px) {
@@ -258,7 +253,6 @@ main {
   .audio-samples,
   .video-embeds,
   .epk-photos,
-  .press-logos,
   .stream-links {
     flex-direction: column;
     align-items: flex-start;
