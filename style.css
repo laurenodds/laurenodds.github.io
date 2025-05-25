@@ -330,8 +330,11 @@ main {
   .splash-img {
     width: 80vw;
     max-width: 98vw;
-    height: 40vw;
+    height: 45vw;
     max-height: 280px;
+  }
+    .splash-img-hide {
+    display: none;
   }
 
 
