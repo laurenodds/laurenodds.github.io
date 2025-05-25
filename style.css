@@ -166,26 +166,19 @@ main {
 }
 .band-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 2rem;
   justify-items: center;
   margin-top: 2rem;
 }
 
-/*.band-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 2fr));
-  gap: 2rem;
-  justify-items: center;
-  margin-top: 2rem;
-}*/
 
 .member-card {
   background: #fff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-  width: 100%;
+  width: 90%;
   max-width: 460px;
   text-align: center;
 }
