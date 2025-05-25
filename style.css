@@ -281,15 +281,13 @@ main {
     gap: 1.5rem;
   }
 
-  .splash-img-mobile {
+  .splash-img {
     width: 80vw;
     max-width: 98vw;
     height: 35vw;
     max-height: 180px;
   }
-  .splash-img {
-  display: none;
-  }
+
 
   .band-members {
     flex-direction: column;
