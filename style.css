@@ -139,24 +139,24 @@ main {
 .band-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
-  gap: 2rem;
+  gap: 6rem;
   justify-items: center;
   margin-top: 2rem;
 }
 
 .member-card {
   background: #fff;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   width: 100%;
-  max-width: 360px;
+  max-width: 460px;
   text-align: center;
 }
 
 .member-card img {
-  width: 260px;
-  height: 260px;
+  width: 320px;
+  height: 320px;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid #8c0606;
