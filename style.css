@@ -104,6 +104,16 @@ main {
   box-shadow: 0 3px 20px rgba(0,0,0,0.13);
 }
 
+.splash-img-hide {
+  width: 30vw;
+  max-width: 350px;
+  height: 35vw;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.13);
+}
+
 .about-section {
   background: #fff;
   border-radius: 16px;
@@ -120,7 +130,7 @@ main {
 
 .about-landing {
   background: #fff;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   max-width: 800px;
@@ -297,6 +307,7 @@ main {
   box-shadow: 0 4px 22px #8c0606;
 }
 
+
 .download-note {
   font-size: 0.95em;
   color: #555;
@@ -325,11 +336,12 @@ main {
     max-width: 98vw;
     height: 55vw;
     max-height: 280px;
-  }
-    .splash-img-hide {
-    display: none;
+    object-position: top;
   }
 
+  .splash-img-hide {
+    display: none;
+  }
 
   .band-members {
     flex-direction: column;
