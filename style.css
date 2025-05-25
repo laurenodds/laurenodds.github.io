@@ -280,12 +280,16 @@ main {
     align-items: center;
     gap: 1.5rem;
   }
-  .splash-img {
+  .splash-img-mobile {
     width: 80vw;
     max-width: 98vw;
     height: 35vw;
-    max-height: 220px;
+    max-height: 400px;
   }
+  .splash-img {
+  display: none;
+  }
+
   .band-members {
     flex-direction: column;
     align-items: center;
