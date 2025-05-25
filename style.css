@@ -280,15 +280,27 @@ main {
     align-items: center;
     gap: 1.5rem;
   }
+    .splash-img {
+    display: none; /* Hide splash-img on mobile */
+  }
+
   .splash-img-mobile {
+    display: block;
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.13);
+  }
+  /*.splash-img-mobile {
     width: 80vw;
     max-width: 98vw;
     height: 35vw;
-    max-height: 400px;
+    max-height: 220px;
   }
   .splash-img {
   display: none;
-  }
+  }*/
 
   .band-members {
     flex-direction: column;
@@ -309,6 +321,7 @@ main {
     gap: 0.6rem;
     padding: 0.8rem 1rem;
   }
+
   .logo {
     font-size: 1.4rem;
   }
