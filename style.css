@@ -131,7 +131,44 @@ main {
   margin-bottom: 2.5rem;
   text-align: center;
 }
+.band-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
 
+.band-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
+
+.member-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 220px;
+  text-align: center;
+}
+
+.member-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #8c0606;
+  margin-bottom: 0.8rem;
+}
+
+.member-card h3 {
+  font-size: 1rem;
+  color: #8c0606;
+  margin: 0;
+}
+/*
 .band-members {
   display: flex;
   flex-wrap: wrap;
@@ -161,7 +198,7 @@ main {
   margin: 0.5rem 0 0.3rem 0;
   color: #8c0606;
   font-size: 1.1rem;
-}
+}*/
 
 .epk-section {
   background: #fff;
