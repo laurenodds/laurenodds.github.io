@@ -213,7 +213,7 @@ main {
   justify-content: center;
 }
 
-.epk-photos a img {
+.epk-photos img {
   width: 280px;
   height: auto; /* Maintain aspect ratio */
   max-height: 420px;
