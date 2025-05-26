@@ -172,7 +172,7 @@ main {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  background-color: #1DB954;
+  background-color: #fff;
   color: #fff;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
@@ -195,6 +195,22 @@ main {
   vertical-align: middle;
 }
 
+.social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.social-links a {
+  color: #222;
+  font-size: 1.6rem;
+  transition: color 0.2s;
+}
+
+.social-links a:hover {
+  color: #8c0606;
+}
 
 
 .band-intro {
