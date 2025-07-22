@@ -225,6 +225,33 @@ main {
 }
 
 
+.youtube-playlists {
+  max-width: 960px;
+  margin: 3rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.youtube-playlists iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 360px;
+  border-radius: 12px;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .youtube-playlists iframe {
+    height: 220px;
+  }
+}
+
 .band-intro {
   background: #fff;
   border-radius: 12px;
